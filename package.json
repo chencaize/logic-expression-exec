@@ -1,6 +1,6 @@
 {
   "name": "logic-expression-exec",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Exec AND and OR logic by defination function",
   "scripts": {
     "test": "node src/test.js",
