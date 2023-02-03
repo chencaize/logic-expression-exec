@@ -1,0 +1,30 @@
+{
+  "name": "logic-expression-exec",
+  "version": "1.0.0",
+  "description": "Exec AND and OR logic by defination function",
+  "scripts": {
+    "test": "node src/test.js",
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "expression",
+    "logic",
+    "and",
+    "or",
+    "function"
+  ],
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/logic-expression-exec.min.js",
+  "author": "Caize Chen",
+  "license": "MIT",
+  "repository": "https://github.com/chencaize/logic-expression-exec",
+  "devDependencies": {
+    "rollup": "^2.63.0"
+  }
+}
