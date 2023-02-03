@@ -13,9 +13,9 @@ yarn add logic-expression-exec
 # How to use it
 
 ```js
-import LogicExpressionExec from "es/index.mjs"; //es
-// const LogicExpressionExec = require("lib/index.cjs");//commonjs
-// const LogicExpressionExec = window["login-express-exec"];//html
+import LogicExpressionExec from "logic-expression-exec"; //es
+// const LogicExpressionExec = require("logic-expression-exec");//commonjs
+// const LogicExpressionExec = window["logic-expression-exec"];//html
 
 let expressionExec = new LogicExpressionExec({
 

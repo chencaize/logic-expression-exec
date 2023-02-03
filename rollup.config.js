@@ -1,12 +1,12 @@
-import resolve from "@rollup/plugin-node-resolve";
-import babel from "@rollup/plugin-babel";
-import terser from "@rollup/plugin-terser";
+const resolve = require("@rollup/plugin-node-resolve");
+const babel = require("@rollup/plugin-babel");
+const terser = require("@rollup/plugin-terser");
 
 let banner = `/*
 * 
 * logic-expression-exec v1.0.0
 * 
-* Copyright 2023, Caize.Chen.
+* Copyright 2023, Caize Chen.
 * All rights reserved.
 *       
 */`;
@@ -14,7 +14,7 @@ let banner = `/*
 
 let input = "src/index.js";
 
-export default [
+module.exports = [
     {
         input,
         plugins: [

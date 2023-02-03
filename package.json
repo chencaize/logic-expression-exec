@@ -1,6 +1,6 @@
 {
   "name": "logic-expression-exec",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Exec AND and OR logic by defination function",
   "scripts": {
     "test": "node src/test.js",
@@ -24,7 +24,6 @@
   "author": "Caize Chen",
   "license": "MIT",
   "repository": "https://github.com/chencaize/logic-expression-exec",
-  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
